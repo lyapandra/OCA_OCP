@@ -1,4 +1,4 @@
-package OCASelikoff.Ch5.s01ClassInheritance.e06InheritingMethods.ee03p249RedeclaringPrivateMethods;
+package OCASelikoff.Ch5.s01ClassInheritance.e06InheritingMethods.ee02p249;
 /**
  * Created by a on 06.04.2018.
  */
