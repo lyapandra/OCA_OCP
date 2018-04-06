@@ -1,4 +1,4 @@
-package OCASelikoff.Ch5.p248;
+package OCASelikoff.Ch5.s01ClassInheritance.e06InheritingMethods.ee02p248ee02OverloadingVsOverriding;
 
 /**
  * Created by a on 05.04.2018.

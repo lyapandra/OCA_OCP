@@ -1,9 +1,9 @@
-package OCASelikoff.Ch5.p239;
+package OCASelikoff.Ch5.s01ClassInheritance.e04DefiningConstructors.ee01p239;
 
 /**
  * Created by a on 22.03.2018.
  */
-public class Zebra extends Animal {
+public class Zebra extends OCASelikoff.Ch5.s01ClassInheritance.e04DefiningConstructors.ee01p239.Animal {
     static String name;
     int age;
     public Zebra(int age) {

@@ -1,4 +1,4 @@
-package OCASelikoff.Ch5.p239;
+package OCASelikoff.Ch5.s01ClassInheritance.e04DefiningConstructors.ee01p239;
 
 /**
  * Created by a on 22.03.2018.
