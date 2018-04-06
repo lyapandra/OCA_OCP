@@ -1,4 +1,4 @@
-package com.jashepherd.studies.java.ocajavase8.ch05_class_design.s01_class_inheritance.e06_inheriting_methods.ee03_redeclaring_private_methods;
+package OCASelikoff.Ch5.s01ClassInheritance.e06InheritingMethods.ee02p251;
 
 /**
  * Chapter 5: Class Design<br>
