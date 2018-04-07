@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">OCASelikoff.Ch5.s04p279Polymorphism.e03CastingObjects.E2Bird</node>
+    <node x="0.0" y="75.0">OCASelikoff.Ch5.s04p279Polymorphism.e03CastingObjects.Fish</node>
+    <node x="-156.0" y="24.0">java.lang.Object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="OCASelikoff.Ch5.s04p279Polymorphism.e03CastingObjects.Fish" target="java.lang.Object">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="OCASelikoff.Ch5.s04p279Polymorphism.e03CastingObjects.E2Bird" target="java.lang.Object">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>java.lang.Object</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
