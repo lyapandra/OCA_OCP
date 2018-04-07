@@ -1,7 +1,6 @@
 package OCASelikoff.Ch5.s04p279Polymorphism.e03CastingObjects;
 
 import OCASelikoff.Ch5.s04p279Polymorphism.e01.HasTail;
-import OCASelikoff.Ch5.s04p279Polymorphism.e01.Lemur;
 import OCASelikoff.Ch5.s04p279Polymorphism.e01.Primate;
 
 /**
@@ -31,30 +30,32 @@ public class E1Lemur extends Primate implements HasTail{
 
 	public static void main(String[] args) {
 		E1Lemur lemur = new E1Lemur();
-		System.out.println("lemur.age = " + lemur.age);
-		System.out.println("lemur.isTailStriped() = " + lemur.isTailStriped());
-		System.out.println("lemur.hasHair() = " + lemur.hasHair());
+		System.out.println("33 lemur.age = " + lemur.age);
+		System.out.println("34 lemur.isTailStriped() = " + lemur.isTailStriped());
+		System.out.println("35 lemur.hasHair() = " + lemur.hasHair());
 
 		Primate primate = lemur;
-		System.out.println("primate.hasHair() = " + primate.hasHair());
+		System.out.println("38 primate.hasHair() = " + primate.hasHair());
 
-		Object o = lemur;
-
+//		Object o = lemur;
+/*
 		Object o1 = new Object();
-/*		Primate p1 = (Primate) o1;
-		System.out.println("p1.hasHair() = " + p1.hasHair());*/
+		Primate p1 = (Primate) o1;
+		System.out.println("44 p1.hasHair() = " + p1.hasHair());
 
-/*		Lemur lemur1 = (Lemur) o1;
-		System.out.println("lemur1.age = " + lemur1.age);
-		System.out.println("lemur1.isTailStriped() = " + lemur1.isTailStriped());
-		System.out.println("lemur1.hasHair() = " + lemur1.hasHair());*/
+
+		E1Lemur lemur1 = (E1Lemur) o1;
+		System.out.println("47 lemur1.age = " + lemur1.age);
+		System.out.println("48 lemur1.isTailStriped() = " + lemur1.isTailStriped());
+		System.out.println("49 lemur1.hasHair() = " + lemur1.hasHair());
+*/
 
 //		E1Lemur lemur2 = primate;  // DOES NOT COMPILE - cannot cast to child without explicit cast
 
 		E1Lemur lemur3 = (E1Lemur) primate;
-		System.out.println(lemur3.age);  // 10
-		System.out.println("lemur3.isTailStriped() = " + lemur3.isTailStriped());
-		System.out.println("lemur3.hasHair() = " + lemur3.hasHair());
+		System.out.println("54 lemur3.age = " + lemur3.age);
+		System.out.println("55 lemur3.isTailStriped() = " + lemur3.isTailStriped());
+		System.out.println("56 lemur3.hasHair() = " + lemur3.hasHair());
 
 	}
 }

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="10.5" y="102.0">OCASelikoff.Ch5.s04p279Polymorphism.e03CastingObjects.E1Lemur</node>
+    <node x="0.0" y="0.0">OCASelikoff.Ch5.s04p279Polymorphism.e01.HasTail</node>
+    <node x="209.0" y="0.0">OCASelikoff.Ch5.s04p279Polymorphism.e01.Primate</node>
+    <node x="222.5" y="102.0">OCASelikoff.Ch5.s04p279Polymorphism.e01.Lemur</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="OCASelikoff.Ch5.s04p279Polymorphism.e03CastingObjects.E1Lemur" target="OCASelikoff.Ch5.s04p279Polymorphism.e01.HasTail">
+      <point x="-36.75" y="-48.5" />
+      <point x="-47.25" y="26.0" />
+    </edge>
+    <edge source="OCASelikoff.Ch5.s04p279Polymorphism.e03CastingObjects.E1Lemur" target="OCASelikoff.Ch5.s04p279Polymorphism.e01.Primate">
+      <point x="36.75" y="-48.5" />
+      <point x="120.75" y="82.0" />
+      <point x="250.25" y="82.0" />
+      <point x="-41.25" y="26.0" />
+    </edge>
+    <edge source="OCASelikoff.Ch5.s04p279Polymorphism.e01.Lemur" target="OCASelikoff.Ch5.s04p279Polymorphism.e01.HasTail">
+      <point x="-36.75" y="-48.5" />
+      <point x="259.25" y="72.0" />
+      <point x="141.75" y="72.0" />
+      <point x="47.25" y="26.0" />
+    </edge>
+    <edge source="OCASelikoff.Ch5.s04p279Polymorphism.e01.Lemur" target="OCASelikoff.Ch5.s04p279Polymorphism.e01.Primate">
+      <point x="36.75" y="-48.5" />
+      <point x="41.25" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>OCASelikoff.Ch5.s04p279Polymorphism.e03CastingObjects.E1Lemur</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
