@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-99.0" y="-157.0">Roman4ik2015.Ch5p202Throwble.p218PolymorphException.Main</node>
+    <node x="-233.5" y="-60.0">Roman4ik2015.Ch5p202Throwble.p218PolymorphException.Main.Resource</node>
+    <node x="-148.0" y="47.0">Roman4ik2015.Ch5p202Throwble.p218PolymorphException.Main.ConcreteResource</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Roman4ik2015.Ch5p202Throwble.p218PolymorphException.Main.ConcreteResource" target="Roman4ik2015.Ch5p202Throwble.p218PolymorphException.Main.Resource">
+      <point x="-67.25" y="-59.0" />
+      <point x="-80.75" y="22.0" />
+      <point x="-154.0" y="23.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Roman4ik2015.Ch5p202Throwble.p218PolymorphException.Main.Resource" target="Roman4ik2015.Ch5p202Throwble.p218PolymorphException.Main">
+      <point x="0.0" y="-26.0" />
+      <point x="-153.0" y="-75.0" />
+      <point x="-71.25" y="-81.0" />
+      <point x="-42.75" y="26.0" />
+    </edge>
+    <edge source="Roman4ik2015.Ch5p202Throwble.p218PolymorphException.Main.ConcreteResource" target="Roman4ik2015.Ch5p202Throwble.p218PolymorphException.Main">
+      <point x="67.25" y="-59.0" />
+      <point x="53.75" y="22.0" />
+      <point x="32.0" y="22.0" />
+      <point x="32.0" y="-80.0" />
+      <point x="29.25" y="-80.0" />
+      <point x="42.75" y="26.0" />
+    </edge>
+    <edge source="Roman4ik2015.Ch5p202Throwble.p218PolymorphException.Main" target="Roman4ik2015.Ch5p202Throwble.p218PolymorphException.Main.ConcreteResource">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

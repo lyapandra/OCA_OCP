@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="61.0" y="-70.0">java.lang.Throwable</node>
+    <node x="14.0" y="80.0">java.lang.IndexOutOfBoundsException</node>
+    <node x="-191.0" y="-3.0">OCASelikoff.ch06p300Exceptions.s03CommonExceptions.e01RuntimeExceptions.RuntimeExceptions</node>
+    <node x="263.0" y="163.0">java.lang.StringIndexOutOfBoundsException</node>
+    <node x="0.0" y="160.0">java.lang.ArrayIndexOutOfBoundsException</node>
+    <node x="64.5" y="0.0">java.lang.Exception</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.StringIndexOutOfBoundsException" target="java.lang.IndexOutOfBoundsException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.lang.ArrayIndexOutOfBoundsException" target="java.lang.IndexOutOfBoundsException">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Exception" target="java.lang.Throwable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.lang.IndexOutOfBoundsException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Throwable" target="java.lang.Throwable">
+      <point x="0.0" y="0.0" />
+      <point x="69.0" y="-127.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="347.0" y="95.0" />
+  <SelectedNodes>
+    <node>OCASelikoff.ch06p300Exceptions.s03CommonExceptions.e01RuntimeExceptions.RuntimeExceptions</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
