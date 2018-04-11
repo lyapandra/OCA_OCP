@@ -9,8 +9,9 @@ import java.util.List;
  * pages 129-134
  */
 public class UnderstandingArraylists {
-	public static void main(String[] args) {
-		// creating ArrayLists
+    public static void main(String[] args) {
+/*
+        // creating ArrayLists
 		ArrayList list1 = new ArrayList();
 		ArrayList list2 = new ArrayList(10);
 		ArrayList list3 = new ArrayList(list2);
@@ -18,7 +19,7 @@ public class UnderstandingArraylists {
 		// creating ArrayLists with generics
 		ArrayList<String> list4 = new ArrayList<String>();
 		ArrayList<String> list5 = new ArrayList<>();  // as of Java 7 the type may be omitted on the right side - diamond operator
-		ArrayList<String> list5_1 = new ArrayList();  // as of Java 8?
+		ArrayList<String> list5_1 = new ArrayList();  // without generics, only raw type LinkedList
 
 		// creating ArrayList and placing it in a List reference
 		List<String> list6 = new ArrayList<>();
@@ -47,18 +48,33 @@ public class UnderstandingArraylists {
 		System.out.println(birds);  // [blue jay, cardinal, hawk, robin]
 
 		System.out.println();
+*/
 
-		// remove()
-		List<String> birds1 = new ArrayList<>();
-		birds1.add("hawk");  // [hawk]
-		birds1.add("hawk");  // [hawk, hawk]
-		System.out.println(birds1.remove("cardinal"));  // prints false
-		System.out.println(birds1.remove("hawk"));  // prints true
-		System.out.println(birds1.remove(0));  // prints hawk
-		System.out.println(birds1);  // []
+        // remove()
+        List<String> birds1 = new ArrayList<>();
+        System.out.println("birds1 = " + birds1);
+        birds1.add("0");  //
+        System.out.println("birds1 = " + birds1);
+        birds1.add("hawk");  // [hawk]
+        System.out.println("birds1 = " + birds1);
+        birds1.add("2");  //
+        System.out.println("birds1 = " + birds1);
+        birds1.add("hawk");  // [hawk, hawk]
+        System.out.println("birds1 = " + birds1);
+        System.out.println(birds1.remove("cardinal"));  // prints false
+        System.out.println("birds1 = " + birds1);
+        /*System.out.println(birds1.remove(1));  // prints *//**//*
+        System.out.println("==========birds1 = " + birds1);*/
 
-		System.out.println();
+        System.out.println("birds1.remove(\"hawk\")");  //
+        System.out.println(birds1.remove("hawk"));  // prints true
+        System.out.println("birds1 = " + birds1);
+        System.out.println(birds1.remove(0));  // prints hawk
+        System.out.println("birds1 = " + birds1);
+        System.out.println(birds1);  // []
 
+        System.out.println();
+/*
 		// set()
 		List<String> birds2 = new ArrayList<>();
 		birds2.add("hawk");                 // [hawk]
@@ -111,5 +127,6 @@ public class UnderstandingArraylists {
 		one.add("b");                         // [a,b]
 		two.add(0, "b");                      // [b,a]
 		System.out.println(one.equals(two));  // false
-	}
+		*/
+    }
 }
