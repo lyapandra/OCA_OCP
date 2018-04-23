@@ -6,9 +6,13 @@ package OCPSelikoff.chapter3.generics.golova4YouTube;
  */
 public class Test {
     public static void main(String[] args) {
-//        f(new A());
+        f(new A());
         f(new B());
     }
+    public static void f(A args) {
+        System.out.println("args.getName() = " + args.getName());
+    }
+
     public static void f(B args) {
         System.out.println("args.getName() = " + args.getName());
     }
@@ -20,7 +24,14 @@ class A {
     }
 }
 
-class B {
+//class B {
+//    String getName (){
+//        return "B";
+//    }
+//}
+
+class B extends A {
+    @Override
     String getName (){
         return "B";
     }
