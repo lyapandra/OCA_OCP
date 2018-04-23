@@ -9,10 +9,8 @@ public interface Shippable<T> {
 
 class Robot{}
 class ShippableRobotCrate implements Shippable<Robot>{
-
     @Override
     public void ship(Robot robot) {
-
     }
 }
 

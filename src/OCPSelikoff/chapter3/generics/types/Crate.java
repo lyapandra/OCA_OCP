@@ -14,4 +14,12 @@ public class Crate<T> {
     public T emptyCrate(){
         return t;
     }
+
+    public T getT(){
+        return t;
+    }
+
+    public String getClassName(){
+        return getT().getClass().getSimpleName();
+    }
 }

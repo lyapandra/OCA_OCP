@@ -17,6 +17,9 @@ public class Unbound {
     public static void main(String[] args) {
         List<Integer> li = Arrays.asList(1, 2, 3);
         List<String>  ls = Arrays.asList("one", "two", "three");
+        System.out.println("ls.size() = " + ls.size());
+//        ls.add(3, "next");
+//        ls.add("next");
         printList(li);
         printList(ls);
     }

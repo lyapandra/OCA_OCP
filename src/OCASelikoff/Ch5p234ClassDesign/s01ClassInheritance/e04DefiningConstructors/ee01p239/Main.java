@@ -17,5 +17,7 @@ public class Main {
 
         System.out.println("zebra1.age = " + zebra1.age);
         System.out.println("zebra1.name = " + zebra1.name);
+
+
     }
 }

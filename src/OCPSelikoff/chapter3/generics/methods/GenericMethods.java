@@ -9,7 +9,7 @@ public class GenericMethods {
 
     public static <T> Crate<T> ship(T t) {
         System.out.println("Preparing " + t);
-        return new Crate<>();
+        return new Crate<T>();
     }
 
     public static <T> void sink(T t) {
