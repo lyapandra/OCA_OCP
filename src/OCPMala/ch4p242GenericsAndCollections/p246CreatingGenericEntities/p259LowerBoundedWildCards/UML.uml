@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="97.0" y="80.0">OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Phone</node>
+    <node x="192.5" y="162.0">OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Run</node>
+    <node x="0.0" y="80.0">OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Book</node>
+    <node x="283.0" y="-172.0">java.lang.Object</node>
+    <node x="185.5" y="-124.0">OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Things</node>
+    <node x="151.5" y="-63.0">OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Gift</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Run" target="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Book">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Gift" target="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Things">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Run" target="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Phone">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Phone" target="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Gift">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Run" target="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Gift">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Run" target="java.lang.Object">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Things" target="java.lang.Object">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Book" target="OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Gift">
+      <point x="0.0" y="-15.0" />
+      <point x="38.5" y="55.0" />
+      <point x="89.0" y="21.0" />
+      <point x="-23.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="3.5" />
+  <SelectedNodes>
+    <node>OCPMala.ch4p242GenericsAndCollections.p246CreatingGenericEntities.p259LowerBoundedWildCards.Run</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

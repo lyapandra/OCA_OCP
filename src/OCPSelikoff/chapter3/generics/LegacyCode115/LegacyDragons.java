@@ -1,4 +1,4 @@
-//package OCPSelikoff.chapter3.generics.LegacyCode115;
+package OCPSelikoff.chapter3.generics.LegacyCode115;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
 public class LegacyDragons {
     public static void main(String[] args) {
         List unicorns = new ArrayList();
-//        unicorns.add(new Unicorn());
+        unicorns.add(new Unicorn());
         unicorns.add(new Dragon());
 
         printDragons(unicorns);
