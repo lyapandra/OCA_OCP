@@ -1,5 +1,4 @@
-package OCASelikoff.ch03p101CoreJavaApis.e01_creating_manipulating_strings;
-//package c*om.jashepherd.studies.java.OCASelikoffGit.ch03p101CoreJavaApis.e01_creating_manipulating_strings;
+package OCASelikoffGit.ch03_core_java_apis.e01_creating_manipulating_strings;
 
 /**
  * Chapter 3: Core Java APIs<br>
