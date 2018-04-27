@@ -1,6 +1,8 @@
 package OCASelikoffGit.ch01_java_building_blocks.s03_packages_imports.e07_package_b;
 
-import com.jashepherd.studies.java.ocajavase8.ch01_java_building_blocks.s03_packages_imports.e07_package_a.ClassA;
+//import OCASelikoffGit.ch01_java_building_blocks.s03_packages_imports.e07_package_a.ClassA;
+
+import OCASelikoffGit.ch01_java_building_blocks.s03_packages_imports.e07_package_a.ClassA;
 
 /**
  * Chapter 1: Java Building Blocks<br/>

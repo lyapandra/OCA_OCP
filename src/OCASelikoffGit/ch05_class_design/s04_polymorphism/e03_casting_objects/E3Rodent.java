@@ -13,9 +13,9 @@ package OCASelikoffGit.ch05_class_design.s04_polymorphism.e03_casting_objects;
 public class E3Rodent {
 }
 
-class Capybara extends com.jashepherd.studies.java.ocajavase8.ch05_class_design.s04_polymorphism.e03_casting_objects.E3Rodent {
+class Capybara extends OCASelikoffGit.ch05_class_design.s04_polymorphism.e03_casting_objects.E3Rodent {
 	public static void main(String[] args) {
-		com.jashepherd.studies.java.ocajavase8.ch05_class_design.s04_polymorphism.e03_casting_objects.E3Rodent rodent = new com.jashepherd.studies.java.ocajavase8.ch05_class_design.s04_polymorphism.e03_casting_objects.E3Rodent();
-		com.jashepherd.studies.java.ocajavase8.ch05_class_design.s04_polymorphism.e03_casting_objects.Capybara capybara = (com.jashepherd.studies.java.ocajavase8.ch05_class_design.s04_polymorphism.e03_casting_objects.Capybara) rodent;  // Throws ClassCastException at runtime
+		OCASelikoffGit.ch05_class_design.s04_polymorphism.e03_casting_objects.E3Rodent rodent = new OCASelikoffGit.ch05_class_design.s04_polymorphism.e03_casting_objects.E3Rodent();
+		OCASelikoffGit.ch05_class_design.s04_polymorphism.e03_casting_objects.Capybara capybara = (OCASelikoffGit.ch05_class_design.s04_polymorphism.e03_casting_objects.Capybara) rodent;  // Throws ClassCastException at runtime
 	}
 }

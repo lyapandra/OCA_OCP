@@ -1,6 +1,6 @@
 package OCASelikoffGit.ch04_methods_encapsulation.e22_lambda_predicates;
 
-import com.jashepherd.studies.java.ocajavase8.ch04_methods_encapsulation.e21_lambda_example.Animal;
+import OCASelikoffGit.ch04_methods_encapsulation.e21_lambda_example.Animal;
 
 import java.util.ArrayList;
 import java.util.List;

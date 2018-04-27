@@ -1,6 +1,7 @@
 package OCASelikoffGit.ch04_methods_encapsulation.e05_protected_access.pond.duck;
 
-import com.jashepherd.studies.java.ocajavase8.ch04_methods_encapsulation.e05_protected_access.pond.goose.Goose;
+
+import OCASelikoffGit.ch04_methods_encapsulation.e05_protected_access.pond.goose.Goose;
 
 /**
  * Chapter 4: Methods and Encapsulation<br>

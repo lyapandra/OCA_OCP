@@ -1,6 +1,6 @@
 package OCASelikoffGit.ch04_methods_encapsulation.e04_default_access.pond.swan;
 
-import com.jashepherd.studies.java.ocajavase8.ch04_methods_encapsulation.e04_default_access.pond.duck.MotherDuck;
+import OCASelikoffGit.ch04_methods_encapsulation.e04_default_access.pond.duck.MotherDuck;
 
 /**
  * Chapter 4: Methods and Encapsulation<br>

@@ -1,7 +1,7 @@
 package OCASelikoffGit.ch05_class_design.s04_polymorphism.e03_casting_objects;
 
-import com.jashepherd.studies.java.ocajavase8.ch05_class_design.s04_polymorphism.e01.HasTail;
-import com.jashepherd.studies.java.ocajavase8.ch05_class_design.s04_polymorphism.e01.Primate;
+import OCASelikoffGit.ch05_class_design.s04_polymorphism.e01.HasTail;
+import OCASelikoffGit.ch05_class_design.s04_polymorphism.e01.Primate;
 
 /**
  * Chapter 5: Class Design<br>

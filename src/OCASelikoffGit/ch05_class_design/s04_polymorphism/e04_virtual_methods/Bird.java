@@ -14,12 +14,13 @@ public class Bird {
 	}
 }
 
-class Peacock extends com.jashepherd.studies.java.ocajavase8.ch05_class_design.s04_polymorphism.e04_virtual_methods.Bird {
+class Peacock extends OCASelikoffGit.ch05_class_design.s04_polymorphism.e04_virtual_methods.Bird {
+	@Override
 	public String getName() {
 		return "Peacock";
 	}
 	public static void main(String[] args) {
-		com.jashepherd.studies.java.ocajavase8.ch05_class_design.s04_polymorphism.e04_virtual_methods.Bird bird = new com.jashepherd.studies.java.ocajavase8.ch05_class_design.s04_polymorphism.e04_virtual_methods.Peacock();
+		OCASelikoffGit.ch05_class_design.s04_polymorphism.e04_virtual_methods.Bird bird = new OCASelikoffGit.ch05_class_design.s04_polymorphism.e04_virtual_methods.Peacock();
 		bird.displayInformation();
 	}
 }
