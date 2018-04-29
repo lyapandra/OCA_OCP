@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-21.0" y="39.0">switcherFormVideo.Switcher</node>
+    <node x="-220.0" y="-116.0">switcherFormVideo.ElectricityConsumer</node>
+    <node x="-220.0" y="39.0">switcherFormVideo.ProgramFromVideo</node>
+    <node x="-182.0" y="-36.0">switcherFormVideo.Lamp</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="switcherFormVideo.Lamp" target="switcherFormVideo.ElectricityConsumer">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="28.0" />
+  <SelectedNodes>
+    <node>switcherFormVideo.Switcher</node>
+    <node>switcherFormVideo.ElectricityConsumer</node>
+    <node>switcherFormVideo.ProgramFromVideo</node>
+    <node>switcherFormVideo.Lamp</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
