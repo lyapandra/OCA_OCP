@@ -1,5 +1,9 @@
 package lambda.Warburton.learnLambda;
 
+import lambda.Warburton.chapter1.Album;
+import lambda.Warburton.chapter1.SampleData;
+import lambda.Warburton.chapter1.Track;
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -23,5 +27,12 @@ public class WorkWithCollection {
         System.out.println("sameOrderASet = " + sameOrderASet);
         List<Integer> aSetSorted = aSet.stream().sorted().collect(toList());
         System.out.println("aSetSorted = " + aSetSorted);
+
+//        List<Track>
+//                Album allTrackOfOE = SampleData.Mira.getTracks().stream().collect(toList())
+        List<String> allTrackOfOEMira = SampleData.Mira.getTrackList().stream()
+                .map(Track::getName)
+                .collect(toList());
+        System.out.println("allTrackOfOEMira = " + allTrackOfOEMira);
     }
 }
