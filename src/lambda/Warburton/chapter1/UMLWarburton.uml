@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="155.0">lambda.Warburton.chapter1.SampleData</node>
+    <node x="183.0" y="80.0">lambda.Warburton.chapter1.Album</node>
+    <node x="13.0" y="80.0">lambda.Warburton.chapter1.Chapter1</node>
+    <node x="156.0" y="155.0">lambda.Warburton.chapter1.Track</node>
+    <node x="0.0" y="0.0">lambda.Warburton.chapter1.MusicChapter</node>
+    <node x="167.0" y="0.0">lambda.Warburton.chapter1.Performance</node>
+    <node x="0.0" y="230.0">lambda.Warburton.chapter1.Artist</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lambda.Warburton.chapter1.Chapter1" target="lambda.Warburton.chapter1.MusicChapter">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lambda.Warburton.chapter1.Album" target="lambda.Warburton.chapter1.Performance">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
