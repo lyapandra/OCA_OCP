@@ -7,10 +7,12 @@ package OCASelikoffGit.ch02_operators_statements.e04_compound_assignment_operato
  */
 public class CompoundAssignmentOperators {
 	public static void main(String[] args) {
-		int x = 2, z = 3;
-		x = x + z;  // simple assignment operator
-		x += z;  // compound assignment operator
-		System.out.println(x);  // outputs 8
+		int x = 2, x1 = 2,x2 = 2, z = 3;
+		x1 = x1 + z;  // simple assignment operator
+		x2 += z;  // compound assignment operator
+//		System.out.println(x);  // outputs 8
+		System.out.println("x1 = " + x1);
+		System.out.println("x2 = " + x2);
 
 		x = 2; z = 3;
 		x = x - z;  // simple assignment operator
@@ -27,15 +29,15 @@ public class CompoundAssignmentOperators {
 		x /= z;  // compound assignment operator
 		System.out.println(x);  // outputs 2
 
-		long x1 = 10;
-		int y1 = 5;
+		long x1L = 10;
+		int y1L = 5;
 		// y1 = y1 * x1;  // DOES NOT COMPILE - long won't implicitly fit into an int var
-		y1 = (int)(y1 * x1);  // works but there's another way
-		y1 *= x1;  // compound operators automatically downcast
+		y1L = (int)(y1L * x1L);  // works but there's another way
+		y1L *= x1L;  // compound operators automatically downcast
 
-		long x2 = 5;
-		long y2 = (x2=3);
-		System.out.println(x2);  // outputs 3
-		System.out.println(y2);  // also outputs 3
+		long x2L = 5;
+		long y2L = (x2=3);
+		System.out.println(x2L);  // outputs 3
+		System.out.println(y2L);  // also outputs 3
 	}
 }

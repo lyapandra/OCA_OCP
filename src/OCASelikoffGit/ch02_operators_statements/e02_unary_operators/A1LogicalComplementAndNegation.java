@@ -12,6 +12,13 @@ public class A1LogicalComplementAndNegation {
 		System.out.println(x);  // false
 		x = !x;
 		System.out.println(x);  // true
+		int a = 1;
+		double b = 1;
+		System.out.println("b = " + b);
+
+		System.out.println("a = " + a);
+
+		System.out.println("(double)a = " + (double) a);
 
 		// negation practice
 		double x1 = 1.21;

@@ -11,10 +11,11 @@ public class IfStatements {
 		int hourOfDay = 3;
 		int morningGreetingCount = 0;
 
-		if (hourOfDay < 11)
-			System.out.println("Good Morning");
-
 		if (hourOfDay < 11) {
+			System.out.println("Good Morning");
+		}
+
+		if (hourOfDay > 11) {
 			System.out.println("Good Morning");
 			morningGreetingCount++;
 		}
@@ -22,5 +23,7 @@ public class IfStatements {
 		if (hourOfDay < 11)
 			System.out.println("Good Morning");
 			morningGreetingCount++;  // not part of if statement
+		System.out.println("morningGreetingCount = " + morningGreetingCount);
 	}
+
 }

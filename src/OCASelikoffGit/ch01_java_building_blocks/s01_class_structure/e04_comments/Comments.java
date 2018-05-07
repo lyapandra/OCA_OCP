@@ -10,7 +10,7 @@ package OCASelikoffGit.ch01_java_building_blocks.s01_class_structure.e04_comment
  * This very comment is a Javadoc kind of comment
  */
 public class Comments {
-	// comment until end of line
+//	 comment until end of line
 
 	/* Multiple
 	 * line comment
