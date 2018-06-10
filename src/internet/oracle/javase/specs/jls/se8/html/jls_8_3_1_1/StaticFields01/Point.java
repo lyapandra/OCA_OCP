@@ -1,4 +1,4 @@
-package internet.oracle.javase.specs.jls.se8.html.jls_8_3_1_1.StaticFields;
+package internet.oracle.javase.specs.jls.se8.html.jls_8_3_1_1.StaticFields01;
 
 class Point {
     int x, y, useCount;
