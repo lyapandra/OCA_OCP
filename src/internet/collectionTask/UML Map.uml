@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="281.5" y="0.0">java.lang.Iterable</node>
+    <node x="64.5" y="0.0">java.util.Map</node>
+    <node x="274.0" y="80.0">java.util.Collection</node>
+    <node x="0.0" y="160.0">java.util.NavigableMap</node>
+    <node x="88.0" y="240.0">java.util.TreeMap</node>
+    <node x="146.0" y="160.0">java.lang.Object</node>
+    <node x="9.5" y="80.0">java.util.SortedMap</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.TreeMap" target="java.lang.Object">
+      <point x="31.666666666666657" y="-15.0" />
+      <point x="167.16666666666666" y="215.0" />
+      <point x="187.5" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.NavigableMap" target="java.util.SortedMap">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.Collection" target="java.lang.Iterable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.TreeMap" target="java.util.Map">
+      <point x="0.0" y="-15.0" />
+      <point x="135.5" y="55.0" />
+      <point x="118.5" y="55.0" />
+      <point x="18.0" y="15.0" />
+    </edge>
+    <edge source="java.util.TreeMap" target="java.util.NavigableMap">
+      <point x="-31.666666666666686" y="-15.0" />
+      <point x="103.83333333333331" y="215.0" />
+      <point x="62.5" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.SortedMap" target="java.util.Map">
+      <point x="0.0" y="-15.0" />
+      <point x="62.5" y="55.0" />
+      <point x="82.5" y="55.0" />
+      <point x="-18.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="226.5" />
+  <SelectedNodes>
+    <node>java.util.Collection</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

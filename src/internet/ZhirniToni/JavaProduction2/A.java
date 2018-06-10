@@ -1,4 +1,4 @@
-package ZhirniToni.JavaProduction2;
+package internet.ZhirniToni.JavaProduction2;
 
 /**
  * Created by a on 04.04.2018.

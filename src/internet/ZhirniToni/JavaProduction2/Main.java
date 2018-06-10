@@ -1,4 +1,6 @@
-package ZhirniToni.JavaProduction2;
+package internet.ZhirniToni.JavaProduction2;
+
+import internet.ZhirniToni.JavaProduction2.A;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +14,7 @@ public class Main {
         System.out.println("a.var = " + a.var);
 
         A b = new A();
-        a.stat="B.stat";
+        a.stat="b.stat";
         b.var = "b.var";
         System.out.println("b.stat = " + b.stat);
         System.out.println("b.var = " + b.var);
