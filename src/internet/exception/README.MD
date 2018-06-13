@@ -1,8 +1,15 @@
 https://docs.oracle.com/javase/specs/jls/se7/html/jls-11.html
 https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html
+https://docs.oracle.com/javase/7/docs/api/java/lang/RuntimeException.html
+https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html
 https://jsehelper.blogspot.com/2016/01/java-core-3.html
 
+http://sources.ru/java/faq/runexc.htm
 http://developer.alexanderklimov.ru/android/java/exception.php
+
+The Java Exception Class Hierarchy 
+https://airbrake.io/blog/java/the-java-exception-class-hierarchy
+
 RuntimeException не нужно включать в список throws. 
 #Вот небольшой список непроверяемых исключений.
 ArithmeticException - арифметическая ошибка, например, деление на нуль
