@@ -1,6 +1,8 @@
 package internet.lambda.SourceCode.u1;
 
 public class Main {
+    private static double v1 = 3.0;
+
     public static void main(String[] args) {
 
         Operation operation = new Operation() {
@@ -29,5 +31,8 @@ public class Main {
             return result;
         };
         System.out.println("factorial = " + factorial.getResult(4));
+
+        NoArguments noArguments = () -> v1;
+        System.out.println("noArguments = " + noArguments.getResult());
     }
 }
