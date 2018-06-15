@@ -8,3 +8,9 @@ https://www.youtube.com/watch?v=DNC6Lknn2AE
 # chanal Source Code
 Java Lambdas. Урок 1. Лямбда-выражения
 https://www.youtube.com/watch?v=WmMavkXMXDg&index=2&t=0s&list=PLGbj5Xe61j2AtfTH01DbMXTkT5skz8P6a
+
+#Шпаргалка Java программиста 4. Java Stream API
+https://habr.com/company/luxoft/blog/270383/
+
+#Полное руководство по Java 8 Stream API в картинках и примерах
+https://annimon.com/article/2778

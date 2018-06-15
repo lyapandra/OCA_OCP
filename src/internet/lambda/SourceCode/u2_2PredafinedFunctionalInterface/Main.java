@@ -2,8 +2,7 @@ package internet.lambda.SourceCode.u2_2PredafinedFunctionalInterface;
 
 import java.util.ArrayList;
 import java.util.function.*;
-
-import static java.lang.Character.toLowerCase;
+// https://user12vv.wordpress.com/2018/05/08/java-8-%D0%B8-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D1%8B/
 
 public class Main {
     public static void main(String[] args) {
