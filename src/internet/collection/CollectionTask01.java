@@ -1,4 +1,4 @@
-package internet.collectionTask;
+package internet.collection;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
