@@ -1,4 +1,4 @@
-package internet.oracle.javase.specs.jls.se8.html.jls_8_3_1_1.StaticFields03;
+package internet.statics.oracle.javase.specs.jls.se8.jls_8_3_1_1.StaticFields03;
 //https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.3.1.1
 //Example 8.3.1.1-3. Hiding of Instance Variables
 class Point {
