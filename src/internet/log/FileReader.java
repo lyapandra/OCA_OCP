@@ -10,8 +10,10 @@ import java.nio.file.Paths;
 
 public class FileReader implements Reader{
     final  static Logger logger = Logger.getLogger(FileReader.class);
+
     @Override
     public String read() {
+        logger.info("start read()");
         String message = "";
         try {
             URI url = ClassLoader.getSystemResource("message.txt").toURI();
@@ -26,6 +28,8 @@ public class FileReader implements Reader{
         } catch (URISyntaxException | IOException | NullPointerException  e) {
             logger.error(e);
         }
+
+        logger.info("finish read()");
         return message;
     }
 
