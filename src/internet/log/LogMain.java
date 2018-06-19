@@ -5,5 +5,7 @@ public class LogMain {
         Reader reader = new FileReader();
         String message = reader.read();
         System.out.println("message = " + message);
+
+
     }
 }
