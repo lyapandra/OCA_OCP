@@ -12,23 +12,23 @@ https://airbrake.io/blog/java/the-java-exception-class-hierarchy
 
 RuntimeException не нужно включать в список throws. 
 #Вот небольшой список непроверяемых исключений.
-ArithmeticException - арифметическая ошибка, например, деление на нуль
-ArrayIndexOutOfBoundsException - выход индекса за границу массива
-ArrayStoreException - присваивание элементу массива объекта несовместимого типа
-ClassCastException - неверное приведение
-EnumConstantNotPresentException - попытка использования неопределённого значения перечисления
-IllegalArgumentException - неверный аргумент при вызове метода
-IllegalMonitorStateException - неверная операция мониторинга
-IllegalStateException - некорректное состояние приложения
-IllegalThreadStateException - запрашиваемая операция несовместима с текущим потоком
-IndexOutofBoundsException - тип индекса вышел за допустимые пределы
-NegativeArraySizeException - создан массив отрицательного размера
-NullPointerException - неверное использование пустой ссылки
-NumberFormatException - неверное преобразование строки в числовой формат
-SecurityException - попытка нарушения безопасности
-StringIndexOutOfBounds - попытка использования индекса за пределами строки
-TypeNotPresentException - тип не найден
-UnsupportedOperationException - обнаружена неподдерживаемая операция
+1. [ArithmeticException - арифметическая ошибка, например, деление на нуль](https://docs.oracle.com/javase/7/docs/api/java/lang/ArithmeticException.html)  
+1. ArrayStoreException - присваивание элементу массива объекта несовместимого типа
+1. ClassCastException - неверное приведение
+ _EnumConstantNotPresentException - попытка использования неопределённого значения перечисления_
+1. IllegalArgumentException - неверный аргумент при вызове метода
+1. IllegalMonitorStateException - неверная операция мониторинга
+1. IllegalStateException - некорректное состояние приложения  
+ _IllegalThreadStateException - запрашиваемая операция несовместима с текущим потоком_  
+1. [IndexOutofBoundsException - тип индекса вышел за допустимые пределы)](https://docs.oracle.com/javase/7/docs/api/java/lang/IndexOutOfBoundsException.html)  
+7.1. ArrayIndexOutOfBoundsException - выход индекса за границу массива  
+7.2. StringIndexOutOfBounds - попытка использования индекса за пределами строки
+1. NegativeArraySizeException - создан массив отрицательного размера
+1. NullPointerException - неверное использование пустой ссылки  
+_NumberFormatException - неверное преобразование строки в числовой формат_
+1. SecurityException - попытка нарушения безопасности  
+_TypeNotPresentException - тип не найден_
+1. UnsupportedOperationException - обнаружена неподдерживаемая операция
 
 #Список проверяемых системных исключений, которые можно включать в список throws:
 ClassNotFoundException - класс не найден
