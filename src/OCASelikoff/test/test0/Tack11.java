@@ -1,6 +1,6 @@
 package OCASelikoff.test.test0;
 
-public class tack11 {
+public class Tack11 {
     public static void main(String[] args) {
         int x = 5, j = 0;
         OUTER: for(int i=0; i<3; )
