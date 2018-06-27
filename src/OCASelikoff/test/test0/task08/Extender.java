@@ -1,12 +1,12 @@
 package OCASelikoff.test.test0.task08;
 
-
+//todo: return
 class GrandPa {
     public static void main(String[] args) {
         GrandPa one = new GrandChild(5);
 //        GrandPa parent = new Child();
         System.out.println();
-        System.out.println(one.hasSon());
+        System.out.println("one.hasSon() = " + one.hasSon());
         System.out.println("\nGrandPa.shasSon() = " + GrandPa.shasSon());
         System.out.println("\nParent.shasSon() = " + Parent.shasSon());
         System.out.println("\nChild.shasSon() = " + Child.shasSon());
