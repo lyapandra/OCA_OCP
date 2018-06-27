@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="4.0" y="169.0">OCASelikoff.test.t0.Reindeer</node>
+    <node x="0.0" y="0.0">OCASelikoff.test.t0.Deer</node>
+    <node x="4.0" y="294.0">OCASelikoff.test.t0.ChildReindeer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="OCASelikoff.test.t0.ChildReindeer" target="OCASelikoff.test.t0.Reindeer">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="OCASelikoff.test.t0.Reindeer" target="OCASelikoff.test.t0.Deer">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="59.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
