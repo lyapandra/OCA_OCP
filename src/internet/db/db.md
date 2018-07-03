@@ -1,6 +1,6 @@
 <!--ts-->
 1. [SQLNoSQL](#SQLNoSQL)
-2. [DOM](#DOM)
+2. [DOM](#dom)
 <!--te-->
 
 SQLNoSQL
@@ -47,3 +47,29 @@ SQLNoSQL
 
 DOM
 ===
+1. [Документ и объекты страницы] (http://learn.javascript.ru/document)
+1. [Дерево DOM] (http://learn.javascript.ru/dom-nodes)
+1. 
+1. [Внутреннее устройство поисковых методов] (https://learn.javascript.ru/searching-elements-internals)
+
+brifly:  
+2. DOM-модель – это внутреннее представление HTML-страницы в виде дерева.  
+2. Все элементы страницы, включая теги, текст, комментарии, являются узлами DOM.  
+3. У элементов DOM есть свойства и методы, которые позволяют изменять их.
+
+HTTP
+===
+[HTTP Headers] (https://code.tutsplus.com/ru/tutorials/http-headers-for-dummies--net-8039)  
+
+|Method|Do| |
+|---|---|---|
+|GET|получение документа|GET /foo.php?first_name=John&last_name=Doe&action=Submit HTTP/1.1|
+|POST|отправка данных на сервер|POST /foo.php HTTP/1.1  first_name=John&last_name=Doe&action=Submit|
+(http://java-se-learning.blogspot.com/2014/05/http-key-moments.html?view=sidebar)
+
+Memory
+===
+(http://java-se-learning.blogspot.com/2014/10/permanent-generation.html?view=sidebar)
+
+
+
